@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    margin-top: 20%;
+  }
+  
+  .flower-animation {
+    width: 100px;
+    height: 100px;
+    background-image: url('flower.gif'); /* Example flower animation */
+    background-size: cover;
+    margin: 0 auto;
+    animation: bloom 3s ease-in-out infinite;
+  }
+  
+  @keyframes bloom {
+    0% { transform: scale(0.5); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(0.5); }
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .button-group button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #yesButton {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  #noButton {
+    background-color: #dc3545;
+    color: white;
+  }
+  
